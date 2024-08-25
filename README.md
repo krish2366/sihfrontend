@@ -3,7 +3,7 @@
 # Clone this repo
  1.Open the **terminal** with the directory you want to clone it.
  
- 2.Run **```git clone ['link of this repo'](https://github.com/krish2366/sihfrontend.git)```**
+ 2.Run **```git clone https://github.com/krish2366/sihfrontend.git```**
  
  3.After that run **```npm i```**
 
