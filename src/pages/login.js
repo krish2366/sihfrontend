@@ -3,7 +3,7 @@ import logo from '../Images/logo.svg'
 
 const LoginPage = () => {
     return (
-        <div className="bg-[#CBEFEF] w-full h-full flex  ">
+        <div className="bg-[#CBEFEF] w-full h-full flex mb-5 ">
             <div className="p-20 pt-0 mt-14 w-max">
                 <img src={hospital} alt="" />
             </div>
