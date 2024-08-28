@@ -6,6 +6,9 @@ module.exports = {
       backgroundImage: {
         'login-image': "url('/src/Images/Rectangle 6.svg')",
       },
+      fontFamily: {
+        julee: ['Julee', 'cursive'],
+      },
     }
   },
   plugins: [],
