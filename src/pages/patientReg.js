@@ -7,9 +7,9 @@ const PatientRegistration = () => {
             <div className="p-20 pt-28 mt-14 w-max">
                 <img src={consultancy} alt=""  className="w-[43rem]"/>
             </div>
-            <div className="bg-login-image w-[623px] flex flex-col p-16 pt-10 space-y-2">
+            <div className="bg-login-image w-[623px] flex flex-col p-16 pt-10 space-y-5">
                 <div className="flex justify-center h-48"><img src={logo} alt="" /></div>
-
+                <p className="font-bold text-center text-2xl "><u>Patient Registration Form</u></p>
                 <div className="py-10 px-5 bg-[#F4FFFD] border rounded-lg space-y-9">
                     <div className="flex justify-between items-center mb-5">
                         <p className="text-2xl">First Name</p>
