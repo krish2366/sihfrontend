@@ -1,5 +1,4 @@
 import staff from "../Images/staff.svg"
-import logo from '../Images/logo.svg'
 
 const StaffRegistration = () => {
     return (
@@ -8,31 +7,42 @@ const StaffRegistration = () => {
                 <img src={staff} alt=""  className="w-[53rem] h-[50rem]"/>
             </div>
             <div className="bg-login-image w-[623px] h-[51rem] flex flex-col p-16 pt-10 space-y-2">
-                <div className="flex justify-center h-48"><img src={logo} alt="" /></div>
 
-                <div className="py-10 px-5 bg-[#F4FFFD] border rounded-lg space-y-9">
+                <div className="py-10 px-5 bg-[#F4FFFD] border rounded-lg space-y-8 h-[46rem]">
                     <div className="font-inter font-bold underline text-center">
                         <p className="text-2xl">Staff Registation Form</p>
                     </div>
-                    <div className="flex justify-between items-center mb-5">
-                        <p className="text-2xl">User Id</p>
-                        <input type="text" name="user id" className="w-64 h-9 border border-black rounded-md" /> 
+                    <div className="flex justify-between items-center mb-4">
+                        <p className="text-[22px]">User Id</p>
+                        <input type="text" name="user id" className="w-64 h-8 border border-black rounded-md pl-2" /> 
                     </div>
-                    <div className="flex justify-between items-center mb-5">
-                        <p className="text-2xl">First Name</p>
-                        <input type="text" name="firstname" className="w-64 h-9 border border-black rounded-md " /> 
+                    <div className="flex justify-between items-center mb-3">
+                        <p className="text-[20px]">First Name</p>
+                        <input type="text" name="firstname" className="w-64 h-8 border border-black rounded-md pl-2" /> 
                     </div>
-                    <div className="flex justify-between items-center mb-5">
-                        <p className="text-2xl">Last Name</p>
-                        <input type="text" name="lastname" className="w-64 h-9 border border-black rounded-md " /> 
+                    <div className="flex justify-between items-center mb-3">
+                        <p className="text-[20px]">Last Name</p>
+                        <input type="text" name="lastname" className="w-64 h-8 border border-black rounded-md pl-2" /> 
                     </div>
-                    <div className="flex justify-between items-center mb-5">
-                        <p className="text-2xl">Position At</p>
-                        <input type="text" name="position at" className="w-64 h-9 border border-black rounded-md " /> 
+                    <div className="flex justify-between items-center mb-3">
+                        <p className="text[20px]">Position At</p>
+                        <input type="text" name="position at" className="w-64 h-8 border border-black rounded-md pl-2" /> 
                     </div>
-                    <div className="flex justify-between items-center mb-5">
-                        <p className="text-2xl">Department</p>
-                        <input type="text" name="Department" className="w-64 h-9 border border-black rounded-md " /> 
+                    <div className="flex justify-between items-center mb-3">
+                        <p className="text-[20px]">Department</p>
+                        <input type="text" name="Department" className="w-64 h-8 border border-black rounded-md pl-2" /> 
+                    </div>
+                    <div className="flex justify-between items-center mb-3">
+                        <p className="text-[20px]">Email Id</p>
+                        <input type="text" name="email id" className="w-64 h-8 border border-black rounded-md pl-2" /> 
+                    </div>
+                    <div className="flex justify-between items-center mb-3 ">
+                        <p className="text-[20px]">Password</p>
+                        <input type="password" name="password" className="w-64 h-8 border border-black rounded-md pl-2" /> 
+                    </div>
+                    <div className="flex justify-between items-center mb-3 ">
+                        <p className="text-[20px]">Confirm Password</p>
+                        <input type="password" name="password" className="w-64 h- border border-black rounded-md pl-2" /> 
                     </div>
                     <div className="flex justify-center">
                         <button className=" bg-[#6AEDFF] rounded-full w-40 h-12 font-bold text-2xl">Submit</button>
